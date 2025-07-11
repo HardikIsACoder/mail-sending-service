@@ -4,9 +4,9 @@ const MockProviderB = require("./providers/mockProviderB");
 
 const providers = [new MockProviderA(), new MockProviderB()];
 const emailService = new EmailService(providers, {
-  maxRetries: 8,
+  maxRetries: 3,
   baseDelay: 500,
-  rateLimit: 10,
+  rateLimit: 5,
 });
 
 async function main() {
