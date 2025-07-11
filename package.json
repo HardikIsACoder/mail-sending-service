@@ -1,0 +1,16 @@
+{
+  "name": "email-sending-service",
+  "version": "1.0.0",
+  "description": "email service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Hardik Agrawal",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
